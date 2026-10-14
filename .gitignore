@@ -1,3 +1,59 @@
+# Original download and local publication metadata
+/local-backup/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+*service-account-key*.json
+kubeconfig*
+.kube/
+.aws/
+.gcloud/
+.config/gcloud/
+
+# Python environments, caches, and packaging
+.venv/
 venv/
-MLOPS_PROJECT_9.egg-info/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Generated training outputs and logs
+/artifacts/models/
+/artifacts/processed/
 logs/
+*.log
+
+# Infrastructure state and local overrides
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+crash.log
+terraform.rc
+.terraformrc
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
