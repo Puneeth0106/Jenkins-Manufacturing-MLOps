@@ -1,0 +1,20 @@
+* text=auto
+*.py text eol=lf
+*.groovy text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.ipynb text eol=lf
+*.csv text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.txt text eol=lf
+Dockerfile text eol=lf
+Jenkinsfile text eol=lf
+.env.example text eol=lf
+*.png binary
+*.jpg binary
+*.zip binary
+*.pkl binary
