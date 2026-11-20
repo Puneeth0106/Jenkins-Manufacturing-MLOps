@@ -164,9 +164,3 @@ Open `http://localhost:5000` while port-forwarding. The Service also declares No
 - Both the registry and Deployment use the mutable `latest` tag. Applying an unchanged Deployment does not restart existing pods after a new push. Use an immutable image tag or explicitly restart the deployment when repeating this demo.
 - The manifests define one replica with no resource limits, probes, persistent storage, or rollout quality gates.
 - There is no automated test suite, model registry, drift monitoring, or deployment rollback logic. Jenkins, Docker, and Kubernetes integration execution remains unverified; see [validation details](docs/VALIDATION.md).
-
-## Source materials and history
-
-This repository organizes supplied training materials. The bundle identifies [MLOPS-Project-Code](https://github.com/data-guru0/MLOPS-Project-Code) and [Jenkins-Shared-Library](https://github.com/data-guru0/Jenkins-Shared-Library) as its source repositories. Existing package author metadata is retained. The application's two original commits remain ancestors of `main`; the library's original commit is preserved on `archive/shared-library`, and its scripts are included on `main`.
-
-No license file was present in the supplied materials, and this preparation does not grant a new license or claim original authorship. Original history still contains previously committed model artifacts, notebook outputs, and Python caches; they were removed from the current tracked tree without rewriting history.
